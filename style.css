@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  background-color: rgb(235, 241, 242);
+}
+/* Header */
+header {
+  padding: 20px;
+  background-color: dodgerblue;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(249, 249, 249);
+  font-style: italic;
+  font-weight: bolder;
+}
+main {
+  /* background-color: rgb(254, 254, 254); */
+  /* padding: 20px; */
+  margin: 20px auto;
+  width: 500px;
+  height: 90px;
+  text-align: center;
+}
+
+main > div > h1 {
+  font-size: 25px;
+}
+
+main > div > p {
+  font-size: 18px;
+}
+
+/* form */
+.input-flx {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+}
+
+.input-txt {
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 80%;
+  border-color: gray;
+}
+.input-button {
+  padding: 4px 15px;
+  border-radius: 5px;
+  background-color: darkgrey;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.input-get-cls {
+  text-align: center;
+  margin-top: 5px;
+  font-style: italic;
+  font-weight: 550;
+  font-size: 20px;
+}
+.input-list {
+  margin: 20px 0;
+  background-color: white;
+  list-style: none;
+  padding: 15px;
+  text-align: justify;
+}
+.input-list .input-item {
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid rgb(221, 219, 219);
+  margin: 15px;
+  color: rgb(118, 142, 163);
+}
